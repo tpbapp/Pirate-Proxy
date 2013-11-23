@@ -3,7 +3,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
 	tools:ignore="TypographyDashes">
 
-	<string name="ga_trackingId">UA-45054908-2</string>
+  	<!--Enter your GA tracking code here -->
+	<string name="ga_trackingId">UA-XXXXXXXX-X</string>
 
   	<!--Enable automatic activity tracking-->
   	<bool name="ga_autoActivityTracking">true</bool>
