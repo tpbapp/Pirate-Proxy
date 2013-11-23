@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/gavin/workspace/PirateBay/res/values/arrays.xml -->
+    <string-array name="homepage">
+        <item name="torrents">@string/torrents</item>
+        <item name="news">@string/news</item>
+        <item name="tweets">@string/tweets</item>
+    </string-array>
+    <string-array name="homepageoptions">
+        <item name="torrents">@string/torrents</item>
+        <item name="news">@string/news</item>
+        <item name="tweets">@string/tweets</item>
+    </string-array>
+    <!-- From: file:/home/gavin/workspace/PirateBay/res/values/styles.xml -->
+    <color name="dark">#444444</color>
+    <color name="highlight">#000000</color>
+    <color name="light">#FFFFFF</color>
+    <!-- From: file:/home/gavin/workspace/PirateBay/res/values/dimens.xml -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/gavin/workspace/PirateBay/res/values/strings.xml -->
+    <string name="addproxy">Add New Proxy</string>
+    <string name="addtorrent">Add New Torrent</string>
+    <string name="adult">Enable Adult Content</string>
+    <string name="app">Pirate Bay</string>
+    <string name="browse">Browse</string>
+    <string name="category">Category</string>
+    <string name="connect">Connect</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting</string>
+    <string name="debug">Enable Debug Mode</string>
+    <string name="deletecategories">Delete All Categories</string>
+    <string name="deletelogs">Delete All Logs</string>
+    <string name="deleteproxies">Delete All Proxies</string>
+    <string name="deleteproxy">Delete Proxy</string>
+    <string name="deletesearches">Delete All Searches</string>
+    <string name="deletetorrents">Delete All Torrents</string>
+    <string name="development">Development</string>
+    <string name="homepage">Display on Homepage</string>
+    <string name="leeches">Leeches</string>
+    <string name="log">Log</string>
+    <string name="logs">Logs</string>
+    <string name="magnet">Magnet</string>
+    <string name="news">News</string>
+    <string name="nonetwork">No network connection</string>
+    <string name="piratesearch">Pirate Search</string>
+    <string name="proxies">Proxies</string>
+    <string name="proxy">Proxy</string>
+    <string name="rating">Rating</string>
+    <string name="reset">Reset Data</string>
+    <string name="search">Search</string>
+    <string name="searches">Searches</string>
+    <string name="seeds">Seeds</string>
+    <string name="settings">Settings</string>
+    <string name="torrent">Torrent</string>
+    <string name="torrentdetails">Torrent Details</string>
+    <string name="torrentresults">Torrent Results</string>
+    <string name="torrents">Torrents</string>
+    <string name="tweet">Tweet</string>
+    <string name="tweets">Tweets</string>
+    <string name="twitter">Twitter</string>
+    <!-- From: file:/home/gavin/workspace/PirateBay/res/values/styles.xml -->
+    <style name="app" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:buttonStyle">@style/button</item>
+        <item name="android:imageButtonStyle">@style/button</item>
+        <item name="android:editTextStyle">@style/editor</item>
+        <item name="android:autoCompleteTextViewStyle">@style/editor</item>
+        <item name="android:dropDownListViewStyle">@style/popup</item>
+        <item name="android:windowBackground">@color/light</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:shadowColor">@color/highlight</item>
+        <item name="android:shadowRadius">0</item>
+        <item name="android:shadowDx">-2</item>
+        <item name="android:shadowDy">-2</item>
+    </style>
+
+    <style name="editor">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/editor</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="popup">
+        <item name="android:background">@drawable/editor</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:divider">#E5E5E5</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+</resources>

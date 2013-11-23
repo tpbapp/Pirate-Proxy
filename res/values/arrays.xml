@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="proxy">
+        <item name="share">@string/share</item>
+        <item name="rate">@string/rate</item>
+        <item name="suspend">@string/suspend</item>
+        <item name="delete">@string/delete</item>
+    </string-array>
+    
+    <string-array name="category">
+        <item name="subscribe">@string/subscribe</item>
+        <item name="share">@string/share</item>
+    </string-array>
+    
+    <!-- <string-array name="order_keys">
+        <item name="7">@string/orderseeds</item>
+        <item name="9">@string/orderleeches</item>
+        <item name="0">@string/orderrecent</item>
+    </string-array> -->
+     
+</resources>

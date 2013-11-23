@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AboutActivity" >
+
+    <TextView
+        android:id="@+id/about_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about_status_icon"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tpb"
+        style="@style/title" />
+
+    <ImageView
+        android:id="@+id/about_status_icon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/about_title"
+        android:contentDescription="@string/torrent"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:src="@drawable/neutral" />
+
+    <TextView
+        android:id="@+id/about_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/about_status_icon"
+        android:layout_alignTop="@+id/about_status_icon"
+        android:layout_toRightOf="@id/about_status_icon"
+        android:paddingBottom="8dp"
+        android:text="@string/proxy" />
+
+    <Button
+        android:id="@+id/about_donate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_status_icon"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/donate" />
+
+    <ImageView
+        android:id="@+id/tpbapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/tpbapp"
+        android:src="@drawable/tpbapp" />
+
+    <TextView
+        android:id="@+id/about_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tpbapp"
+        android:layout_alignRight="@+id/tpbapp"
+        android:text="@string/developer"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/about_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about_donate"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/about_developer"
+        android:text="@string/description" />
+
+    <TextView
+        android:id="@+id/about_twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/about_donate"
+        android:layout_below="@+id/about_title"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tpb">TPB Proxy</string>
+    <string name="pro">The Pirate Bay Pro</string>
+    <string name="getpro">Upgrade to Pro is required</string>
+
+    <!-- Proxies -->
+    <string name="proxy">Proxy</string>
+    <string name="proxies">Proxies</string>
+    <string name="suspend">Suspend</string>
+    <string name="unsuspend">Unsuspend</string>
+    <string name="rate">Rate</string>
+    <string name="connect">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="connecting">Connecting</string>
+    <string name="nonetwork">No network connection</string>
+    <string name="noconnection">Not connected</string>
+
+    <!-- Search -->
+    <string name="search">Pirate Search</string>
+    <string name="searching">Searching</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="delete">Delete</string>
+
+    <!-- Categories -->
+    <string name="browse">Browse Torrents</string>
+    <string name="category">Category</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- Torrents -->
+    <string name="torrents">Torrents</string>
+    <string name="torrent">Torrent</string>
+    <string name="browser">Open Web Browser</string>
+    <string name="share">Share</string>
+
+    <!-- About -->
+    <string name="about">About</string>
+    <string name="tpbapp">TPB App</string>
+    <string name="description">The Pirate Bay Proxy\nFor more information visit</string>
+    <string name="developer">tpbapp.com</string>
+    <string name="donate">Donate Bitcoin</string>
+
+    <!-- Settings
+    <string name="settings">Settings</string>
+    <string name="history">Enable Search History</string>
+    <string name="adult">Enable Adult Content</string>
+    <string name="debug">Debug Mode</string> -->
+
+    <!-- Logs -->
+    <string name="log">Log</string>
+    <string name="logs">Logs</string>
+
+</resources>

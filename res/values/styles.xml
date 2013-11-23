@@ -1,0 +1,90 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Colours -->
+    <color name="tpb">#F6F1EE</color>
+    <!-- <color name="coffee">#D2B9A6</color> -->
+    <color name="white">#FFFFFF</color>
+    <color name="lighter">#F5F5F5</color>
+	<!-- <color name="lighter">#F6F1EE</color> -->
+    <color name="light">#E9E9E9</color>
+    <!-- <color name="light">#D2B9A6</color> -->
+    <color name="dark">#777777</color>
+    <!-- <color name="dark">#9D6944</color> -->
+    <color name="darker">#444444</color>
+    <!-- <color name="darker">#593A1F</color> -->
+    <color name="darkest">#111111</color>
+    
+    <color name="success">#00CC00</color>
+    <color name="warn">#FFCC00</color>
+    <color name="error">#CC0000</color>
+ 	
+     <!-- Theme -->
+     <style name="tpb" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:buttonStyle">@style/button</item>
+        <item name="android:imageButtonStyle">@style/button</item>
+   		<item name="android:editTextStyle">@style/editor</item>
+   		<item name="android:autoCompleteTextViewStyle">@style/editor</item>
+    	<item name="android:textColor">@color/dark</item>
+    	<item name="android:textSize">14sp</item>
+    	<item name="android:typeface">sans</item>
+ 	</style>
+    
+    <!-- Buttons -->
+    <style name="button" parent="@android:style/Widget.Button">
+    	<item name="android:background">@drawable/button</item>
+    	<item name="android:padding">8dp</item>
+    	<item name="android:textColor">@color/light</item>
+    	<item name="android:textSize">14sp</item>
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:typeface">sans</item>
+		<item name="android:shadowColor">@color/darkest</item>
+        <item name="android:shadowRadius">0</item>
+        <item name="android:shadowDx">-1</item>
+        <item name="android:shadowDy">-1</item>
+    </style>
+    
+    <!-- Editors -->
+    <style name="editor" parent="@android:style/Widget.EditText">
+    	<item name="android:background">@drawable/editor</item>	
+    	<item name="android:padding">8dp</item>
+    	<item name="android:textColor">@color/darker</item>
+    	<item name="android:textSize">18sp</item>
+		<item name="android:shadowColor">@color/white</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">-1</item>
+        <item name="android:shadowDy">-1</item>
+	</style>
+    
+    <!-- Titles -->
+	<style name="title">
+    	<item name="android:background">@drawable/title</item>
+    	<item name="android:textColor">@color/darker</item>
+    	<item name="android:textSize">18sp</item>
+    	<item name="android:paddingBottom">8dp</item>
+	</style>
+    
+    <!-- Content -->
+	<style name="content">
+    	<item name="android:background">@drawable/content</item>
+    	<item name="android:textColor">@color/darker</item>
+    	<item name="android:textSize">12sp</item>
+    	<item name="android:paddingTop">8dp</item>
+    	<item name="android:layout_marginTop">8dp</item>
+		<item name="android:scrollbars">vertical</item>
+	    <item name="android:autoLink">web</item>
+	    <item name="android:maxLines">200</item>
+	</style>
+    
+    <!-- Tags -->
+    <style name="tag">
+    	<item name="android:background">@drawable/tag</item>	
+    	<item name="android:textColor">@color/white</item>
+    	<item name="android:textSize">12sp</item>
+    	<item name="android:paddingLeft">8dp</item>
+    	<item name="android:paddingRight">8dp</item>
+		<item name="android:shadowColor">@color/darker</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDy">-1</item>
+	</style>
+
+</resources>

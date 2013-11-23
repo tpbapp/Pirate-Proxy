@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/gavin/workspace/PirateBay/res/values-v11/styles.xml -->
+    <color name="dark">#777777</color>
+    <color name="highlight">#000000</color>
+    <color name="light">#FFFFFF</color>
+
+    <style name="app" parent="android:Theme.Holo.Light">
+        <item name="android:buttonStyle">@style/button</item>
+        <item name="android:imageButtonStyle">@style/button</item>
+        <item name="android:editTextStyle">@style/editor</item>
+        <item name="android:autoCompleteTextViewStyle">@style/editor</item>
+        <!-- <item name="android:alertDialogStyle">@style/dialog</item> -->
+        <item name="android:windowBackground">@color/light</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:shadowColor">@color/highlight</item>
+        <item name="android:shadowRadius">0</item>
+        <item name="android:shadowDx">-2</item>
+        <item name="android:shadowDy">-2</item>
+    </style>
+
+    <style name="dialog">
+        <item name="android:textColor">@color/light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:shadowColor">@color/highlight</item>
+        <item name="android:shadowRadius">0</item>
+        <item name="android:shadowDx">-2</item>
+        <item name="android:shadowDy">-2</item>
+    </style>
+
+    <style name="editor" parent="@android:style/Widget.EditText">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/editor</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

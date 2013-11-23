@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/torrent">
+
+    <ImageView
+        android:id="@+id/torrenticon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+	    android:gravity="left"
+	    android:paddingRight="8dp"
+        android:contentDescription="@string/torrent"
+        android:src="@drawable/neutral" />
+
+	<TextView
+	    android:id="@+id/torrentname"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/torrenticon"
+	    android:layout_toLeftOf="@+id/torrentrating"
+	    android:paddingTop="8dp"
+	    android:text="@string/torrent"
+	    android:textIsSelectable="false" />
+
+	<TextView
+	    android:id="@+id/torrentrating"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_toLeftOf="@+id/torrentmagnet"
+	    android:gravity="right"
+	    android:paddingLeft="8dp"
+	    android:textSize="14sp"
+	    android:textIsSelectable="false" />
+
+    <ImageView
+        android:id="@+id/torrentmagnet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"
+	    android:gravity="right"
+	    android:paddingLeft="8dp"
+        android:contentDescription="@string/magnet"
+        android:src="@drawable/magnet" />
+
+	<TextView
+	    android:id="@+id/torrentdetails"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/torrentname"
+	    android:layout_toLeftOf="@+id/torrentrating"
+	    android:layout_toRightOf="@+id/torrenticon"
+	    android:paddingBottom="8dp"
+	    android:textIsSelectable="false"
+	    android:textSize="12sp" />
+ 
+</RelativeLayout><!-- From: file:/home/gavin/workspace/PirateBay/res/layout/torrent.xml -->

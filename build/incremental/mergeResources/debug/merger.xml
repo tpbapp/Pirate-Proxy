@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/gavin/workspace/PirateBay/res" >
+            <file
+                name="settings"
+                path="/home/gavin/workspace/PirateBay/res/xml/settings.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="vip"
+                path="/home/gavin/workspace/PirateBay/res/drawable/vip.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="buttonregular"
+                path="/home/gavin/workspace/PirateBay/res/drawable/buttonregular.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="trusted"
+                path="/home/gavin/workspace/PirateBay/res/drawable/trusted.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="buttonpressed"
+                path="/home/gavin/workspace/PirateBay/res/drawable/buttonpressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tpbicon"
+                path="/home/gavin/workspace/PirateBay/res/drawable/tpbicon.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button"
+                path="/home/gavin/workspace/PirateBay/res/drawable/button.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="success"
+                path="/home/gavin/workspace/PirateBay/res/drawable/success.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="editorpressed"
+                path="/home/gavin/workspace/PirateBay/res/drawable/editorpressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="editor"
+                path="/home/gavin/workspace/PirateBay/res/drawable/editor.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="warn"
+                path="/home/gavin/workspace/PirateBay/res/drawable/warn.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="magnet"
+                path="/home/gavin/workspace/PirateBay/res/drawable/magnet.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="editorregular"
+                path="/home/gavin/workspace/PirateBay/res/drawable/editorregular.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="delete"
+                path="/home/gavin/workspace/PirateBay/res/drawable/delete.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tpblogo"
+                path="/home/gavin/workspace/PirateBay/res/drawable/tpblogo.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="neutral"
+                path="/home/gavin/workspace/PirateBay/res/drawable/neutral.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="error"
+                path="/home/gavin/workspace/PirateBay/res/drawable/error.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                path="/home/gavin/workspace/PirateBay/res/values/strings.xml"
+                qualifiers="" >
+                <string name="adult" >Enable Adult Content
+                </string>
+                <string name="deleteproxy" >Delete Proxy
+                </string>
+                <string name="connecting" >Connecting
+                </string>
+                <string name="logs" >Logs
+                </string>
+                <string name="deletecategories" >Delete All Categories
+                </string>
+                <string name="rating" >Rating
+                </string>
+                <string name="deleteproxies" >Delete All Proxies
+                </string>
+                <string name="addproxy" >Add New Proxy
+                </string>
+                <string name="deletelogs" >Delete All Logs
+                </string>
+                <string name="app" >Pirate Bay
+                </string>
+                <string name="torrents" >Torrents
+                </string>
+                <string name="debug" >Enable Debug Mode
+                </string>
+                <string name="news" >News
+                </string>
+                <string name="homepage" >Display on Homepage
+                </string>
+                <string name="magnet" >Magnet
+                </string>
+                <string name="tweet" >Tweet
+                </string>
+                <string name="browse" >Browse
+                </string>
+                <string name="leeches" >Leeches
+                </string>
+                <string name="torrentdetails" >Torrent Details
+                </string>
+                <string name="searches" >Searches
+                </string>
+                <string name="deletetorrents" >Delete All Torrents
+                </string>
+                <string name="search" >Search
+                </string>
+                <string name="tweets" >Tweets
+                </string>
+                <string name="twitter" >Twitter
+                </string>
+                <string name="addtorrent" >Add New Torrent
+                </string>
+                <string name="proxies" >Proxies
+                </string>
+                <string name="log" >Log
+                </string>
+                <string name="connected" >Connected
+                </string>
+                <string name="torrentresults" >Torrent Results
+                </string>
+                <string name="category" >Category
+                </string>
+                <string name="proxy" >Proxy
+                </string>
+                <string name="torrent" >Torrent
+                </string>
+                <string name="deletesearches" >Delete All Searches
+                </string>
+                <string name="settings" >Settings
+                </string>
+                <string name="nonetwork" >No network connection
+                </string>
+                <string name="seeds" >Seeds
+                </string>
+                <string name="development" >Development
+                </string>
+                <string name="connect" >Connect
+                </string>
+                <string name="piratesearch" >Pirate Search
+                </string>
+                <string name="reset" >Reset Data
+                </string>
+            </file>
+            <file
+                path="/home/gavin/workspace/PirateBay/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="editor" >
+                    <item name="android:padding">
+10dp
+                    </item>
+                    <item name="android:background">
+@drawable/editor
+                    </item>
+                    <item name="android:textColor">
+@color/dark
+                    </item>
+                    <item name="android:textSize">
+18sp
+                    </item>
+                </style>
+
+                <color name="dark" >#444444
+                </color>
+                <color name="highlight" >#000000
+                </color>
+
+                <style name="button" >
+                    <item name="android:background">
+@drawable/button
+                    </item>
+                    <item name="android:padding">
+10dp
+                    </item>
+                    <item name="android:textColor">
+@color/light
+                    </item>
+                    <item name="android:textSize">
+18sp
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:typeface">
+sans
+                    </item>
+                    <item name="android:shadowColor">
+@color/highlight
+                    </item>
+                    <item name="android:shadowRadius">
+0
+                    </item>
+                    <item name="android:shadowDx">
+-2
+                    </item>
+                    <item name="android:shadowDy">
+-2
+                    </item>
+                </style>
+
+                <style
+                    name="app"
+                    parent="android:Theme.Holo.Light.NoActionBar" >
+                    <item name="android:buttonStyle">
+@style/button
+                    </item>
+                    <item name="android:imageButtonStyle">
+@style/button
+                    </item>
+                    <item name="android:editTextStyle">
+@style/editor
+                    </item>
+                    <item name="android:autoCompleteTextViewStyle">
+@style/editor
+                    </item>
+                    <item name="android:dropDownListViewStyle">
+@style/popup
+                    </item>
+                    <item name="android:windowBackground">
+@color/light
+                    </item>
+                    <item name="android:textColor">
+@color/dark
+                    </item>
+                    <item name="android:textSize">
+16sp
+                    </item>
+                    <item name="android:typeface">
+sans
+                    </item>
+                </style>
+
+                <color name="light" >#FFFFFF
+                </color>
+
+                <style name="popup" >
+                    <item name="android:background">
+@drawable/editor
+                    </item>
+                    <item name="android:textColor">
+@color/dark
+                    </item>
+                    <item name="android:textSize">
+18sp
+                    </item>
+                    <item name="android:divider">
+#E5E5E5
+                    </item>
+                    <item name="android:dividerHeight">
+1dp
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/home/gavin/workspace/PirateBay/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/home/gavin/workspace/PirateBay/res/values/arrays.xml"
+                qualifiers="" >
+                <string-array name="homepage" >
+                    <item name="torrents">
+@string/torrents
+                    </item>
+                    <item name="news">
+@string/news
+                    </item>
+                    <item name="tweets">
+@string/tweets
+                    </item>
+                </string-array>
+                <string-array name="homepageoptions" >
+                    <item name="torrents">
+@string/torrents
+                    </item>
+                    <item name="news">
+@string/news
+                    </item>
+                    <item name="tweets">
+@string/tweets
+                    </item>
+                </string-array>
+            </file>
+            <file
+                name="search"
+                path="/home/gavin/workspace/PirateBay/res/drawable-xhdpi/search.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/gavin/workspace/PirateBay/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="activity_torrents"
+                path="/home/gavin/workspace/PirateBay/res/layout/activity_torrents.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_torrent"
+                path="/home/gavin/workspace/PirateBay/res/layout/activity_torrent.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="torrent"
+                path="/home/gavin/workspace/PirateBay/res/layout/torrent.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/home/gavin/workspace/PirateBay/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_logs"
+                path="/home/gavin/workspace/PirateBay/res/layout/activity_logs.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_browse"
+                path="/home/gavin/workspace/PirateBay/res/layout/activity_browse.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="category"
+                path="/home/gavin/workspace/PirateBay/res/layout/category.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="proxy"
+                path="/home/gavin/workspace/PirateBay/res/layout/proxy.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="log"
+                path="/home/gavin/workspace/PirateBay/res/layout/log.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_proxies"
+                path="/home/gavin/workspace/PirateBay/res/layout/activity_proxies.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_twitter"
+                path="/home/gavin/workspace/PirateBay/res/layout/activity_twitter.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/home/gavin/workspace/PirateBay/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                name="torrent"
+                path="/home/gavin/workspace/PirateBay/res/menu/torrent.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="browse"
+                path="/home/gavin/workspace/PirateBay/res/menu/browse.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="torrents"
+                path="/home/gavin/workspace/PirateBay/res/menu/torrents.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="proxies"
+                path="/home/gavin/workspace/PirateBay/res/menu/proxies.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="/home/gavin/workspace/PirateBay/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/home/gavin/workspace/PirateBay/res/values-sw600dp/dimens.xml"
+                qualifiers="sw600dp" />
+            <file
+                name="search"
+                path="/home/gavin/workspace/PirateBay/res/drawable-mdpi/search.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/gavin/workspace/PirateBay/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="tpblogo"
+                path="/home/gavin/workspace/PirateBay/res/drawable-mdpi/tpblogo.jpg"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                path="/home/gavin/workspace/PirateBay/res/values-v11/styles.xml"
+                qualifiers="v11" >
+                <color name="light" >#FFFFFF
+                </color>
+
+                <style name="button" >
+                    <item name="android:background">
+@drawable/button
+                    </item>
+                    <item name="android:padding">
+10dp
+                    </item>
+                    <item name="android:textColor">
+@color/light
+                    </item>
+                    <item name="android:textSize">
+16sp
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:typeface">
+sans
+                    </item>
+                    <item name="android:shadowColor">
+@color/highlight
+                    </item>
+                    <item name="android:shadowRadius">
+0
+                    </item>
+                    <item name="android:shadowDx">
+-2
+                    </item>
+                    <item name="android:shadowDy">
+-2
+                    </item>
+                </style>
+
+                <color name="highlight" >#000000
+                </color>
+
+                <style
+                    name="app"
+                    parent="android:Theme.Holo.Light" >
+                    <item name="android:buttonStyle">
+@style/button
+                    </item>
+                    <item name="android:imageButtonStyle">
+@style/button
+                    </item>
+                    <item name="android:editTextStyle">
+@style/editor
+                    </item>
+                    <item name="android:autoCompleteTextViewStyle">
+@style/editor
+                    </item>
+                    <!-- <item name="android:alertDialogStyle">@style/dialog</item> -->
+                    <item name="android:windowBackground">
+@color/light
+                    </item>
+                    <item name="android:textColor">
+@color/dark
+                    </item>
+                    <item name="android:textSize">
+14sp
+                    </item>
+                    <item name="android:typeface">
+sans
+                    </item>
+                </style>
+
+                <style name="dialog" >
+                    <item name="android:textColor">
+@color/light
+                    </item>
+                    <item name="android:textSize">
+14sp
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:typeface">
+sans
+                    </item>
+                    <item name="android:shadowColor">
+@color/highlight
+                    </item>
+                    <item name="android:shadowRadius">
+0
+                    </item>
+                    <item name="android:shadowDx">
+-2
+                    </item>
+                    <item name="android:shadowDy">
+-2
+                    </item>
+                </style>
+
+                <color name="dark" >#777777
+                </color>
+
+                <style
+                    name="editor"
+                    parent="@android:style/Widget.EditText" >
+                    <item name="android:padding">
+10dp
+                    </item>
+                    <item name="android:background">
+@drawable/editor
+                    </item>
+                    <item name="android:textColor">
+@color/dark
+                    </item>
+                    <item name="android:textSize">
+18sp
+                    </item>
+                </style>
+            </file>
+            <file
+                name="search"
+                path="/home/gavin/workspace/PirateBay/res/drawable-hdpi/search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/gavin/workspace/PirateBay/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tpblogo"
+                path="/home/gavin/workspace/PirateBay/res/drawable-hdpi/tpblogo.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tpblogo"
+                path="/home/gavin/workspace/PirateBay/res/drawable-xhdpi/tpblogo.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+        </source>
+        <source path="/home/gavin/workspace/PirateBay/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/gavin/workspace/PirateBay/src/debug/res" />
+    </dataSet>
+
+</merger>

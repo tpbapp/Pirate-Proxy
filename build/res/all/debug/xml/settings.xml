@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="adult"
+        android:title="@string/adult" >
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="debug"
+        android:title="@string/debug" >
+    </CheckBoxPreference>
+    
+    <!-- <Preference android:title="@string/reset" android:key="reset" /> -->
+ 
+    <!-- <PreferenceCategory android:title="@string/search" >
+        <EditTextPreference
+            android:title="@string/search"
+            android:summary="@string/search"
+            android:key="prefUsername"/>
+    </PreferenceCategory> -->
+ 
+    <ListPreference
+        android:key="homepage"
+        android:entries="@array/homepage"
+        android:summary="@string/app"
+        android:entryValues="@array/homepageoptions"
+        android:title="@string/homepage" />
+ 
+</PreferenceScreen><!-- From: file:/home/gavin/workspace/PirateBay/res/xml/settings.xml -->

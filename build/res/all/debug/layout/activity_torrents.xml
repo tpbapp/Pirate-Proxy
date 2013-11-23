@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ProxyActivity" >
+
+    <!--<AutoCompleteTextView
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/searchbutton"
+        android:ems="10"
+        android:maxLength="64"
+        android:maxLines="4"
+        android:padding="8dp"
+        android:popupBackground="#FAFAFA"
+        android:text="@string/search" />-->
+
+    <!--<ImageButton
+        android:id="@+id/searchbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/search"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/search"
+        android:contentDescription="@string/search"
+        android:src="@drawable/search" /> -->
+
+	<TextView
+	    android:id="@+id/statustorrents"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+	    android:padding="10dp"
+	    android:textIsSelectable="false" />
+    
+	<ListView
+	    android:id="@android:id/list"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        android:layout_below="@+id/statustorrents" >
+	</ListView>
+
+</RelativeLayout><!-- From: file:/home/gavin/workspace/PirateBay/res/layout/activity_torrents.xml -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/proxy">
+
+    <ImageView
+        android:id="@+id/logicon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+	    android:gravity="left"
+	    android:padding="8dp"
+        android:contentDescription="@string/log"
+        android:src="@drawable/neutral" />
+
+	<TextView
+	    android:id="@+id/logtag"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_toRightOf="@+id/logicon"
+	    android:padding="8dp"
+	    android:textSize="12sp"
+	    android:textIsSelectable="false" />
+
+	<TextView
+	    android:id="@+id/logcontent"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_toRightOf="@+id/logtag"
+	    android:padding="8dp"
+	    android:textSize="14sp"
+	    android:textIsSelectable="false" />
+ 
+</RelativeLayout><!-- From: file:/home/gavin/workspace/PirateBay/res/layout/log.xml -->

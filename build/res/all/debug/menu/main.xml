@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/browse"
+        android:title="@string/browse"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/proxies"
+        android:title="@string/proxies"
+        android:showAsAction="never" />
+
+    <!-- <item
+        android:id="@+id/twitter"
+        android:title="@string/twitter"
+        android:showAsAction="never" /> -->
+    
+    <!-- <item
+        android:id="@+id/news"
+        android:title="@string/news"
+        android:showAsAction="never" /> -->
+    
+    <!-- <item
+        android:id="@+id/searches"
+        android:title="@string/searches"
+        android:showAsAction="never" /> -->
+    
+    <!-- <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        android:showAsAction="never" /> -->
+    
+    <!-- <item
+        android:id="@+id/donate"
+        android:title="@string/donate"
+        android:showAsAction="never" /> -->
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/logs"
+        android:title="@string/logs"
+        android:showAsAction="never" />
+
+</menu><!-- From: file:/home/gavin/workspace/PirateBay/res/menu/main.xml -->

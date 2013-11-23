@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        android:icon="@drawable/share"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/browser"
+        android:title="@string/browser"
+        android:icon="@drawable/browser"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/proxies"
+        android:title="@string/proxies"
+        android:icon="@drawable/proxies"
+        android:showAsAction="ifRoom" />
+
+    <!-- <item
+        android:id="@+id/searches"
+        android:title="@string/searches"
+        android:icon="@drawable/searches"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        android:icon="@drawable/settings"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/logs"
+        android:title="@string/logs"
+        android:showAsAction="never" /> -->
+
+</menu>
