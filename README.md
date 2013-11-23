@@ -7,13 +7,13 @@ For more information please visit http://tpbapp.com
 
 Features
 ------------
-* Simple OOP and file structure
-* Simple naming conventions and well-formatted code
-* Many deprecated and prototype features commented are ready-to-use
-* Powerful Database class and formatting tools
-* Configurable Settings class and SettingsActivity
+* Simple object-oriented code and file structure
+* Simple naming conventions and formatted code
+* Deprecated and prototype features commented
+* Powerful Database class and data Format class
+* Configurable Settings class
 * ProxyClient class with 5 default proxy websites
-* Eclipse project files
+* Eclipse project file
 * Gradle files for Android Studio
 * Google Analytics integration (res/xml/analytics.xml)
 * AdMob integration (requires Google Play library)
