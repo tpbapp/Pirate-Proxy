@@ -13,11 +13,11 @@ Features
 * Powerful Database class and formatting tools
 * Configurable Settings class and SettingsActivity
 * ProxyClient class with 5 default proxy websites
-* New Relic integration
 * Eclipse project files
 * Gradle files for Android Studio
 * Google Analytics integration (res/xml/analytics.xml)
 * AdMob integration (requires Google Play library)
+* New Relic integration
 * Category, list and menu icons included under Creative Commons 3.0 ShareAlike licence
 
 Legal
